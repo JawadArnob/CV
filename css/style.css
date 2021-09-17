@@ -14,6 +14,10 @@
   list-style: none;
   font-family: 'Ubuntu', sans-serif;
 }
+html.body{
+    height:297mm;
+    width:210mm;
+}
 
 body {
 
@@ -77,15 +81,15 @@ a:hover{
 .image{
     height: 2in;
     width: 2.7in;
-    margin: 10px auto;
-    padding: 40px;
+    margin: 08px auto;
+    padding: 38px;
     
 }
 .image img{
     height: 1.6in;
     width: 1.8in;
-    border-radius: 50%;
-    padding: 5px;
+    border-radius: 75%;
+    padding: 4px;
 }
 
 .about{
@@ -96,7 +100,8 @@ a:hover{
     color: var(--textcolor);
 }
 .about p{
-    text-align: justify;
+    text-align:justify;
+    word-spacing:.2px;
     /* line-height: 0px; */
 }
  h2{
